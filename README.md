@@ -1,2 +1,2 @@
 # Text-Correction
--Correcting wrongly spelled words usong nlp 
+-Correcting wrongly spelled words using NLP and TextBlob 
