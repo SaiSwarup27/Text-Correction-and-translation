@@ -1,2 +1,2 @@
 # Text-Correction
--Correcting wromgly spelled words usong nlp 
+-Correcting wrongly spelled words usong nlp 
