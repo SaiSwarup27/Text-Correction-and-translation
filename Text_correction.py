@@ -6,16 +6,6 @@ def correct_spell():
     text=TextBlob(text)
     label1.config(text=textt.correct())
     
-    '''tokenizers=ToktokTokenizer()
-    text=entry1.get()
-    tokens=tokenizers.tokenize(text)
-    correct_words = []
-    for i in tokens:
-        correct_words.append(TextBlob(i))
-    corrected_words=[]
-    for i in correct_words:
-        corrected_words.append(i.correct())
-    label1.config(text=corrected_words)'''
 
 
 window=tk.Tk()
