@@ -1,7 +1,4 @@
 import tkinter as tk
-'''import nltk
-from nltk.tokenize import word_tokenize
-from nltk.tokenize.toktok import ToktokTokenizer'''
 from textblob import TextBlob
 
 def correct_spell():
