@@ -7,7 +7,7 @@ from textblob import TextBlob
 def correct_spell():
     text=entry1.get()
     text=TextBlob(text)
-    label1.config(text="textt.correct()")
+    label1.config(text=textt.correct())
     
     '''tokenizers=ToktokTokenizer()
     text=entry1.get()
