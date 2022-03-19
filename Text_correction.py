@@ -1,11 +1,15 @@
 import tkinter as tk
-import nltk
+'''import nltk
 from nltk.tokenize import word_tokenize
-from nltk.tokenize.toktok import ToktokTokenizer
+from nltk.tokenize.toktok import ToktokTokenizer'''
 from textblob import TextBlob
 
 def correct_spell():
-    tokenizers=ToktokTokenizer()
+    text=entry1.get()
+    text=TextBlob(text)
+    label1.config(text="textt.correct()")
+    
+    '''tokenizers=ToktokTokenizer()
     text=entry1.get()
     tokens=tokenizers.tokenize(text)
     correct_words = []
@@ -14,7 +18,7 @@ def correct_spell():
     corrected_words=[]
     for i in correct_words:
         corrected_words.append(i.correct())
-    label1.config(text=corrected_words)
+    label1.config(text=corrected_words)'''
 
 
 window=tk.Tk()
