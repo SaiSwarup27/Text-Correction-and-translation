@@ -58,6 +58,7 @@ menu1=tk.StringVar(master=frame)
 menu1.set("select language")
 options = [
     "Chinese",
+    "English",
     "French",
     "German",
     "Hindi",
