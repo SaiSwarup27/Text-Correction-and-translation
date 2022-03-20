@@ -1,9 +1,11 @@
 import tkinter as tk
 from textblob import TextBlob
+import nltk
 
 def correct_spell():
     text=entry1.get()
     text=TextBlob(text)
+    text=text.lower()
     label1.config(text=text.correct())
     
 
