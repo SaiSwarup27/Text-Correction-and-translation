@@ -52,6 +52,21 @@ label3.grid(row=2,column=0)
 label1=tk.Label(master=frame,text=" ")
 label1.place(x=115,y=50)
 
+label4=tk.Label(master=frame,text="Select language to translate text: ",relief=tk.RAISED)
+label4.grid(row=3,column=0)
+menu1=tk.StringVar(master=frame)
+menu1.set("select language")
+options = [
+    "Chinese",
+    "French",
+    "German",
+    "Hindi",
+    "Japanese",
+    "Kannada",
+    "Tamil",
+    "Telugu"
+]
+
 frame.pack(padx=10,pady=10)
 
 window.mainloop()
