@@ -66,6 +66,10 @@ options = [
     "Tamil",
     "Telugu"
 ]
+drop=tk.OptionMenu(frame, menu1, *options)
+drop.grid(row=3,column=1)
+button2=tk.Button(master=frame,text="Translate",command=translate)
+button2.grid(row=3,column=2)
 
 frame.pack(padx=10,pady=10)
 
