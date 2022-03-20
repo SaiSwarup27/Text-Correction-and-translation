@@ -8,6 +8,30 @@ def correct_spell():
     text=text.lower()
     label1.config(text=text.correct())
     
+def translate():
+    text2=entry1.get()
+    text2=TextBlob(text2)
+    text2=text2.lower()
+    text2=text2.correct()
+    text3=menu1.get()
+    if(text3=="English"):
+        label6.config(text=text2.translate(to='en'))
+    if(text3=="Hindi"):
+        label6.config(text=text2.translate(to='hi'))
+    if(text3=="Telugu"):
+        label6.config(text=text2.translate(to='te'))
+    if(text3=="Tamil"):
+        label6.config(text=text2.translate(to='ta'))
+    if(text3=="Kannada"):
+        label6.config(text=text2.translate(to='kn'))
+    if(text3=="German"):
+        label6.config(text=text2.translate(to='de'))
+    if(text3=="French"):
+        label6.config(text=text2.translate(to='fr'))
+    if(text3=="Chinese"):
+        label6.config(text=text2.translate(to='zh-CN'))
+    if(text3=="Japanese"):
+        label6.config(text=text2.translate(to='ja'))
 
 
 window=tk.Tk()
