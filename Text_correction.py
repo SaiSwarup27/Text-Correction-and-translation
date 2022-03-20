@@ -50,7 +50,7 @@ button1.grid(row=1,column=1)
 label3=tk.Label(master=frame,text="Corrected text: ")
 label3.grid(row=2,column=0)
 label1=tk.Label(master=frame,text=" ")
-label1.place(x=115,y=50)
+label1.place(x=155,y=47)
 
 label4=tk.Label(master=frame,text="Select language to translate text: ",relief=tk.RAISED)
 label4.grid(row=3,column=0)
