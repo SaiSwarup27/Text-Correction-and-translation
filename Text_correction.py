@@ -71,6 +71,12 @@ drop.grid(row=3,column=1)
 button2=tk.Button(master=frame,text="Translate",command=translate)
 button2.grid(row=3,column=2)
 
+label5=tk.Label(master=frame,text="Translated language:")
+label5.grid(row=4,column=0,pady=5)
+label6=tk.Label(master=frame,text="")
+label6.place(x=155,y=105)
+
+
 frame.pack(padx=10,pady=10)
 
 window.mainloop()
