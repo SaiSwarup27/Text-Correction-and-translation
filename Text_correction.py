@@ -15,7 +15,6 @@ def translate():
     text2=text2.correct()
     text3=menu1.get()
     if(text3=="English"):
-        label6.config(text=text2.translate(to='en'))
     if(text3=="Hindi"):
         label6.config(text=text2.translate(to='hi'))
     if(text3=="Telugu"):
